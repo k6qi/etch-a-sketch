@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid-square{
+    border: 1px solid black;
+    width: 60px;
+    height:60px;
+}
+
+
+#grid-container{
+    display:flex;
+    flex-wrap:wrap;
+    width: 960px;
+    height:960px;
+    margin:auto;
+    
+}
+
+#reset-button-container{
+   display:flex;
+   justify-content: center;
+   margin-top:2em;
+}
