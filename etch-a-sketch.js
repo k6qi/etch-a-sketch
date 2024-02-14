@@ -12,6 +12,7 @@ function createGrid(){
         gridSquare.addEventListener('mouseover',() =>{
             gridSquare.style.backgroundColor = 'black'; 
         })
+       
       
     }
   
