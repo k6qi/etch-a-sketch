@@ -12,7 +12,9 @@ function createGrid(){
         gridSquare.addEventListener('mouseover',() =>{
             gridSquare.style.backgroundColor = 'black'; 
         })
-       
+        resetButton.addEventListener('click', () =>{
+            gridSquare.style.backgroundColor = 'antiquewhite';
+        })
       
     }
   
